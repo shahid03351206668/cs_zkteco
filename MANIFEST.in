@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cs_zkteco *.css
+recursive-include cs_zkteco *.csv
+recursive-include cs_zkteco *.html
+recursive-include cs_zkteco *.ico
+recursive-include cs_zkteco *.js
+recursive-include cs_zkteco *.json
+recursive-include cs_zkteco *.md
+recursive-include cs_zkteco *.png
+recursive-include cs_zkteco *.py
+recursive-include cs_zkteco *.svg
+recursive-include cs_zkteco *.txt
+recursive-exclude cs_zkteco *.pyc
